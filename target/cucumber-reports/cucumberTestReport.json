@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5433176900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AccountSteps.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Creacion de una cuenta",
+        "description": "Este escenario consiste registrar un nuevo cliente.",
+        "id": "busqueda-de-productos;creacion-de-una-cuenta",
+        "after": [
+          {
+            "result": {
+              "duration": 763515400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AccountSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4551092700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "El cliente entra a la pagina y ingresa a la opcion crear nueva cuenta",
+            "match": {
+              "location": "AccountSteps.elClienteEntraALaPaginaYIngresaALaOpcionCrearNuevaCuenta()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 888224100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingresa el email y pone registrar nueva cuenta",
+            "match": {
+              "location": "AccountSteps.ingresaElEmailYPoneRegistrarNuevaCuenta()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5807576600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "luego el cliente registra sus datos y pone registrar",
+            "match": {
+              "location": "AccountSteps.luegoElClienteRegistraSusDatosYPoneRegistrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73899200,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat steps.AccountSteps.seMuestraMensaje(AccountSteps.java:72)\r\n\tat ✽.Then Se muestra mensaje \"MY ACCOUNT\"(CreacionCuenta.feature:13)\r\n",
+              "status": "pending"
+            },
+            "line": 13,
+            "name": "Se muestra mensaje \"MY ACCOUNT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MY ACCOUNT",
+                  "offset": 20
+                }
+              ],
+              "location": "AccountSteps.seMuestraMensaje(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Busqueda de Productos",
+    "description": "Esta caracteristica permite a los clientes realizar busquedas de\r\nproductos que desean comprar en la tienda virtual.\r\nSe presenta informacion como precio, stock, colores.",
+    "id": "busqueda-de-productos",
+    "keyword": "Feature",
+    "uri": "CreacionCuenta.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@positive"
+      }
+    ]
+  }
+]

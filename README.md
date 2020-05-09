@@ -12,4 +12,4 @@ Se realizo la automatizacion de la pagina: http://automationpractice.com/index.p
 # Estadisticas de prueba
 
 ![Aquí la descripción de la imagen por si no carga]
-(https://github.com/brigitteortiz/EvaluacionTester/blob/master/imagen.jpg
+(https://github.com/brigitteortiz/EvaluacionTester/blob/master/imagen.jpg)

@@ -11,5 +11,4 @@ Se realizo la automatizacion de la pagina: http://automationpractice.com/index.p
 -	Ejecución: Junit o Jenkins Local
 # Estadisticas de prueba
 
-![Aquí la descripción de la imagen por si no carga]
-(https://github.com/brigitteortiz/EvaluacionTester/blob/master/imagen.jpg)
+![imagen](https://user-images.githubusercontent.com/64927257/81461886-6c740c80-9174-11ea-9edb-8c042ff4ef88.jpg)

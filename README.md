@@ -10,3 +10,4 @@ Se realizo la automatizacion de la pagina: http://automationpractice.com/index.p
 -	Escribir HU en: Cucumber
 -	Ejecución: Junit o Jenkins Local
 # Estadisticas de prueba
+https://github.com/brigitteortiz/EvaluacionTester/blob/master/imagen.jpg

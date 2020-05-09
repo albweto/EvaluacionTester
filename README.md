@@ -9,3 +9,4 @@ Se realizo la automatizacion de la pagina: http://automationpractice.com/index.p
 -	Arquetipo: Page Object Model o Screenplay
 -	Escribir HU en: Cucumber
 -	Ejecución: Junit o Jenkins Local
+# Estadisticas de prueba
